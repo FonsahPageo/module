@@ -5,7 +5,7 @@ module "my_vpc" {
   vpc_tag = "ash-vpc-prod"
   vpc_id = "${module.my_vpc.vpc_id}"
   subnet_cidr = "10.0.0.0/24"
-  subnet_tag = "ash-sub"
+  subnet_tag = "ash-sub-prod"
 }
 
 module "my_ec2" {
